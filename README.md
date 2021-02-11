@@ -13,9 +13,9 @@ Steg 2, utse en scrum-master. Personen som är scrum-master kan bytas av.Upprät
 Se till att tilldela user-stories till alla i gruppen, genomför detta även iverktygen ni valt. 
 
 Applikationen ska vara en vue applikation. 
-En användare ska kunna registrera sig iapplikationen. Detta sker via “profile” sidan i applikationen. 
+En användare ska kunna registrera sig i applikationen. Detta sker via “profile” sidan i applikationen. 
 
-Om en användare är registrerad kan denne se sina tidigare beställningar, också det under “profile” sidan.Syftet med applikationen är att sälja kaffe åt dess användare. En användare kan således välja vilka kaffedrycker denne är intresserad av att köpa, detta görs under “menu” sidan. 
+Om en användare är registrerad kan denne se sina tidigare beställningar, också det under “profile” sidan. Syftet med applikationen är att sälja kaffe åt dess användare. En användare kan således välja vilka kaffedrycker denne är intresserad av att köpa, detta görs under “menu” sidan. 
 
 När användaren känner sig redo att beställa kan denne checka ut sina varor, detta görs under “cart” sidan. Genom att klicka på “Take my money!” knappen skickas beställningen iväg och “status” sidan visas. Om ingen användare har registrerats ska användaren istället för attskickas till “status” sidan först skickas till “profile” sidan för registrering.
 
