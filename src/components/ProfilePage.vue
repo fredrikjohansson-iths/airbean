@@ -17,7 +17,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    userData() {
+      return this.$store.state.user;
+    },
+    orderList() {
+      return this.$store.state.orders
+    }
+  },
+};
 </script>
 
 <style lang="css" scoped>
