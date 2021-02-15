@@ -20,6 +20,11 @@ const routes = [
     name: 'ProfilePage',
     component: () => import('../views/ProfilePage.vue')
   },
+  {
+    path: '/ProductMenu',
+    name: 'ProductMenu',
+    component: () => import('../views/ProductMenu.vue')
+  },
 ]
 
 const router = createRouter({
