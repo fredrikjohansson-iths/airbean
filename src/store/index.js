@@ -39,7 +39,23 @@ export default createStore({
       },
     ],
     cartItems: [],
-    orderHistory: [],
+    orders: [
+      {
+        number: "#AB1123282323Z",
+        date: 20200310,
+        sum: 443,
+      },
+      {
+        number: "#AB1128382323X",
+        date: 20200303,
+        sum: 333,
+      },
+      {
+        number: "#AB1444482323X",
+        date: 20200218,
+        sum: 893,
+      },
+    ],
     
   },
   mutations: {
