@@ -11,6 +11,7 @@
       </div>
     </section>
     <section class="order-history">
+      <h3>Orderhistorik</h3>
       <div class="order-item" v-for="item in orderList" :key="item.number">
         <p>{{ item.number }}</p>
         <p>{{ item.date }}</p>

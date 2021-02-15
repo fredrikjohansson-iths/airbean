@@ -38,7 +38,9 @@ export default createStore({
         price: 39
       },
     ],
+
     cartItems: [],
+    
     orders: [
       {
         number: "#AB1123282323Z",
