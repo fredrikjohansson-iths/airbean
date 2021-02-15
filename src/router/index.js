@@ -1,11 +1,11 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import LandingPage from '../views/LandingPage.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'LandingPage',
+    component: LandingPage
   },
   {
     path: '/about',
@@ -19,7 +19,7 @@ const routes = [
     path: '/ProfilePage',
     name: 'ProfilePage',
     component: () => import('../views/ProfilePage.vue')
-  }
+  },
 ]
 
 const router = createRouter({
