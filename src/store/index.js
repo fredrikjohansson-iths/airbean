@@ -39,7 +39,14 @@ export default createStore({
       },
     ],
 
-    cartItems: [],
+    cartItems: [
+      {
+        name: "Bryggkaffe",
+        price: 49,
+        amount: 1,
+      }
+      
+    ],
     
     orders: [
       {
@@ -60,10 +67,20 @@ export default createStore({
     ],
     
   },
+  getters: {
+    
+  },
   mutations: {
+    addProduct(state, item){
+      state.cartItems.push(item)
+    }
   },
   actions: {
+    async addProductToCart(context, product){
+      context.commit('addProduct', product)
+    }
   },
   modules: {
+    
   }
 })

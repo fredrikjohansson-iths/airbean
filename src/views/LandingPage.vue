@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="landing">
     <h1>AirBean</h1>
   </div>
 </template>
